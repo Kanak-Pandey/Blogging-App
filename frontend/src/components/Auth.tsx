@@ -1,10 +1,9 @@
 import type { SignupInput } from "@kanakpandey30/medium-common"
 import { useState, type ChangeEventHandler } from "react"
-import { Link, Navigate, useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import axios from "axios"
 import { BACKEND_URL } from "../config"
-import { Signup } from "../pages/Signup"
-import { Signin } from "../pages/Signin"
+
 export const Auth=({type}:{type:"signup"|"signin"})=>{
     const [postInputs,setPostInputs]=useState<SignupInput>({
         name:"",
