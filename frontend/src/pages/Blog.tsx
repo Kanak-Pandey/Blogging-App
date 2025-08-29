@@ -19,7 +19,7 @@ export const Blog=()=>{
             </div>
              
         }
-    return <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+    return <div className="min-h-screen bg-gray-100">
         {blog ? <FullBlog blog={blog} /> : "Anonymous"}
     </div>
 }

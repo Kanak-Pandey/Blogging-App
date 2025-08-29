@@ -23,7 +23,7 @@ export const Blogs=()=>{
         </div>
          
     }
-    return<div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+    return<div className="min-h-screen bg-gray-100">
         <div>
             <Appbar></Appbar>
         </div>
