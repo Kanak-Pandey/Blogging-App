@@ -28,10 +28,10 @@ export const Auth=({type}:{type:"signup"|"signin"})=>{
             <div>
                 <div className="px-10">
                     <div className="text-3xl font-extrabold">
-                    {type==="signin"?"Login to your account?":"Create an Account"}
+                    {type==="signin"?"Login to your account":"Create an Account"}
                     </div>
                     <div className="text-slate-400">
-                        {type==="signin"?"Dont have account?":"Create an Account"}
+                        {type==="signin"?"Dont have account?":"Already have an Account?"}
                         <Link className="pl-2 underline cursor-pointer"to={type=="signin"?"/signup":"/signin"}>
                         {type==="signin"?"Signup":"Login"}</Link>
                     </div>
